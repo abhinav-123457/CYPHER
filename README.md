@@ -55,7 +55,7 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
         ```
 
 3. **Frontend Setup**:
-    - Navigate to the frontend directory and install the dependencies:
+    - Navigate to the root directory (which is CYPHER) and install the dependencies:
         ```bash
         npm install
         ```
