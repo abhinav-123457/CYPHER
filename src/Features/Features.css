@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)
+}
+.features {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    background: linear-gradient(135deg,silver,rgb(102, 102, 102),white,rgb(102, 102, 102),white,rgb(102, 102, 102),silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-item {
+    background: -webkit-linear-gradient(135deg,#000,#36454F,#000);;
+    border: 1px solid #36454F;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    background: linear-gradient(135deg,silver,rgb(102, 102, 102),white,rgb(102, 102, 102),white,rgb(102, 102, 102),silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color:linear-gradient(-135deg,black,white,black,white);
+}
+
+.feature-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+#root{
+    max-height: 100%;
+    display: flex;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)
+}
+.signin-page {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg,#000,#36454F,#000);
+    background:linear-gradient(225deg,#000,#36454F,#000); ;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 5vh;
+    position: relative;
+}
+
+.signin-header h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+    background: linear-gradient(-135deg,silver,rgb(102, 102, 102),white,rgb(102, 102, 102),white,rgb(102, 102, 102),silver,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.signin-header p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    background: aliceblue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.signin-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: white;
+    background: -webkit-linear-gradient(135deg,#000,#36454F,#000);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)
+}
+
+.signin-button:hover {
+    background-color: black;
+    transform: scale(1.05)
+}
+.cypher{
+    background: -webkit-linear-gradient(135deg,#000,#36454F,#000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bottom-info{
+    font-size: 30px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+    color: #f0f4f9;
+}
+
+.gemini{
+    font-size: 30px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
