@@ -10,8 +10,8 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 ## Features
 
-- **Language Processing**: Utilizes Hugging Face Transformers for robust language understanding and response generation.
-- **User Interface**: Built with React, featuring an intuitive design with Ant Design components.
+- **Language Processing**: Utilizes Gemini API.
+- **User Interface**: Built with React, featuring an intuitive design.
 - **Markdown Support**: Supports Markdown rendering for code snippets and formatted text.
 - **Syntax Highlighting**: Uses Prism.js for syntax highlighting in code snippets.
 - **Firebase Authentication**: Implements Google Sign-In for user authentication.
@@ -29,7 +29,6 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 - **React Libraries**:
   - [Create React App](https://create-react-app.dev/)
-  - [Ant Design](https://ant.design/)
   - [React Markdown](https://github.com/remarkjs/react-markdown)
   - [Prism.js](https://prismjs.com/)
 
