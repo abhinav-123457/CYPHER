@@ -6,6 +6,7 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 ## Screenshots
 ![alt text](Interface.png)
+![alt text](window.png)
 
 ## Features
 
