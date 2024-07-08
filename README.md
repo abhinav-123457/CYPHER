@@ -4,6 +4,9 @@
 
 Cypher is an AI-powered chatbot designed to assist users with various programming tasks and inquiries. Leveraging advanced natural language processing models and a sleek React-based user interface, Cypher aims to provide a seamless and interactive experience for developers.
 
+## Screenshots
+![alt text](Interface.png)
+
 ## Features
 
 - **Language Processing**: Utilizes Hugging Face Transformers for robust language understanding and response generation.
