@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAK01ABMXwoV5PoVbCe4iltkHcZT2Zjkbw",
-  authDomain: "ai-cypher.firebaseapp.com",
-  projectId: "ai-cypher",
-  storageBucket: "ai-cypher.appspot.com",
-  messagingSenderId: "667191630254",
-  appId: "1:667191630254:web:06e1115e08d61ce69d503f"
+  apiKey: "YOUR_FIREBASE_API_KEY",
+  authDomain: "YOUR_FIREBASE_AUTH_DOMAIN,
+  projectId: "YOUR_FIREBASE_PROJECT_ID",
+  storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_FIREBASE_MESSAGE_SENDER_ID",
+  appId: "YOUR_FIREBASE_APP_ID"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
