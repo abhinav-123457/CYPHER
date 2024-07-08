@@ -90,7 +90,7 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 ## Project Structure
 ```bash
-CHATBOT/
+CYPHER/
 └── 📁public
     └── cypher.jpg
     └── index.html
