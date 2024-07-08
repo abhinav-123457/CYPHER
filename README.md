@@ -17,9 +17,9 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 ### Backend
 
-- **Python Libraries**:
+- **API'S and LANGUAGES**:
   - [Hugging Face Transformers](https://huggingface.co/transformers/)
-  - [FastAPI](https://fastapi.tiangolo.com/)
+  - [GEMINI-API]()
 
 ### Frontend
 
