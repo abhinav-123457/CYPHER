@@ -56,10 +56,19 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
         ```bash
         npm install
         ```
-
+        
 4. **Firebase Setup**:
     - Configure Firebase in your React project by setting up your Firebase project and updating the Firebase config file.
+        ```bash
+        apiKey: "Your_Firebase_Api_key",
+        authDomain: "Your_Firebase_auth_Domain",
+        projectId: "Your_Firebase_Project_ID",
+        storageBucket: "Your_Firebase_Storage_bucket",
+        messagingSenderId: "Your_Firebase_Message_Sender_ID",
+        appId:"Your_Firebase_AppID
+        ```
 
+ 
 ### Running the Application
 
 1. **Start the Frontend**:
