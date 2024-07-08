@@ -67,8 +67,11 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
         messagingSenderId: "Your_Firebase_Message_Sender_ID",
         appId:"Your_Firebase_AppID
         ```
-
- 
+5. **Gemini API**:
+    - Go to google ai studio and configure your gemini api key and updating the Gemini.js file.
+        ```bash
+        const API_KEY = "Your_Gemini_API-KEY"
+        ```
 ### Running the Application
 
 1. **Start the Frontend**:
@@ -118,4 +121,21 @@ CHATBOT/
         └── SignIn.css
         └── SignIn.js
 ```
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit pull requests with any improvements or new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Contact
+
+For any inquiries or support, please reach out to [abhinavshakya063@gmail.com](mailto:abhinavshakya063@gmail.com).
+
+---
+
+**Cypher** - Your AI-powered programming assistant.
 
