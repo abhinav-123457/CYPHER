@@ -80,28 +80,38 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 ## Project Structure
 ```bash
-cypher-chatbot/
-├── public/
-│ ├── index.html
-│ └── ...
-├── src/
-│ ├── components/
-│ │ ├── main/
-│ │ │ ├── Main.jsx
-│ │ │ ├── main.css
-│ │ ├── sidebar/
-│ │ │ ├── Sidebar.jsx
-│ │ │ ├── sidebar.css
-│ ├── context/
-│ │ └── Context.js
-│ ├── Firebase/
-│ │ ├── firebaseConfig.js
-│ │ └── useAuth.js
-│ ├── App.jsx
-│ ├── index.js
-│ └── ...
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
+CHATBOT/
+└── 📁public
+    └── cypher.jpg
+    └── index.html
+    └── manifest.json
+    └── robots.txt
+└── 📁src
+    └── App.js
+    └── App.test.js
+    └── chatbot.jsx
+    └── 📁Componets
+        └── 📁main
+            └── main.css
+            └── Main.jsx
+            └── send.png
+    └── 📁config
+        └── Gemini.js
+    └── 📁context
+        └── Context.jsx
+    └── cypher.jpg
+    └── 📁Features
+        └── Features.css
+        └── Features.js
+    └── 📁FIrebase
+        └── firebaseConfig.js
+        └── useAuth.js
+    └── index.css
+    └── index.js
+    └── reportWebVitals.js
+    └── setupTests.js
+    └── 📁Signin
+        └── SignIn.css
+        └── SignIn.js
+```
 
