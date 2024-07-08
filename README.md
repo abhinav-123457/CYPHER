@@ -41,7 +41,7 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/cypher.git
+    git clone https://github.com/abhinav-123457/CYPHER.git
     cd cypher
     ```
 
@@ -62,12 +62,7 @@ Cypher is an AI-powered chatbot designed to assist users with various programmin
 
 ### Running the Application
 
-1. **Start the Backend**:
-    ```bash
-    uvicorn main:app --reload
-    ```
-
-2. **Start the Frontend**:
+1. **Start the Frontend**:
     ```bash
     npm start
     ```
